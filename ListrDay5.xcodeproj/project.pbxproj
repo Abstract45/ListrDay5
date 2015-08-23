@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80488E01B893EED000C0C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80488DF1B893EED000C0C71 /* AppDelegate.swift */; };
+		E80488E21B893EED000C0C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80488E11B893EED000C0C71 /* ViewController.swift */; };
+		E80488E51B893EED000C0C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80488E31B893EED000C0C71 /* Main.storyboard */; };
+		E80488E71B893EED000C0C71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80488E61B893EED000C0C71 /* Images.xcassets */; };
+		E80488EA1B893EED000C0C71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E80488E81B893EED000C0C71 /* LaunchScreen.xib */; };
+		E80488F61B893EED000C0C71 /* ListrDay5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80488F51B893EED000C0C71 /* ListrDay5Tests.swift */; };
+		E80489021B89426A000C0C71 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80489011B89426A000C0C71 /* ToDoListTableViewController.swift */; };
+		E80489041B894438000C0C71 /* AddToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80489031B894438000C0C71 /* AddToDoListViewController.swift */; };
+		E80489081B89518B000C0C71 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80489071B89518B000C0C71 /* ToDoItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E80488F01B893EED000C0C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E80488D21B893EED000C0C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E80488D91B893EED000C0C71;
+			remoteInfo = ListrDay5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E80488DA1B893EED000C0C71 /* ListrDay5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListrDay5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80488DE1B893EED000C0C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80488DF1B893EED000C0C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E80488E11B893EED000C0C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E80488E41B893EED000C0C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E80488E61B893EED000C0C71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E80488E91B893EED000C0C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E80488EF1B893EED000C0C71 /* ListrDay5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListrDay5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80488F41B893EED000C0C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80488F51B893EED000C0C71 /* ListrDay5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListrDay5Tests.swift; sourceTree = "<group>"; };
+		E80489011B89426A000C0C71 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		E80489031B894438000C0C71 /* AddToDoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoListViewController.swift; sourceTree = "<group>"; };
+		E80489071B89518B000C0C71 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E80488D71B893EED000C0C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80488EC1B893EED000C0C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E80488D11B893EED000C0C71 = {
+			isa = PBXGroup;
+			children = (
+				E80488DC1B893EED000C0C71 /* ListrDay5 */,
+				E80488F21B893EED000C0C71 /* ListrDay5Tests */,
+				E80488DB1B893EED000C0C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E80488DB1B893EED000C0C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E80488DA1B893EED000C0C71 /* ListrDay5.app */,
+				E80488EF1B893EED000C0C71 /* ListrDay5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E80488DC1B893EED000C0C71 /* ListrDay5 */ = {
+			isa = PBXGroup;
+			children = (
+				E80488DF1B893EED000C0C71 /* AppDelegate.swift */,
+				E80488E11B893EED000C0C71 /* ViewController.swift */,
+				E80489071B89518B000C0C71 /* ToDoItem.swift */,
+				E80488E31B893EED000C0C71 /* Main.storyboard */,
+				E80489031B894438000C0C71 /* AddToDoListViewController.swift */,
+				E80489011B89426A000C0C71 /* ToDoListTableViewController.swift */,
+				E80488E61B893EED000C0C71 /* Images.xcassets */,
+				E80488E81B893EED000C0C71 /* LaunchScreen.xib */,
+				E80488DD1B893EED000C0C71 /* Supporting Files */,
+			);
+			path = ListrDay5;
+			sourceTree = "<group>";
+		};
+		E80488DD1B893EED000C0C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E80488DE1B893EED000C0C71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E80488F21B893EED000C0C71 /* ListrDay5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E80488F51B893EED000C0C71 /* ListrDay5Tests.swift */,
+				E80488F31B893EED000C0C71 /* Supporting Files */,
+			);
+			path = ListrDay5Tests;
+			sourceTree = "<group>";
+		};
+		E80488F31B893EED000C0C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E80488F41B893EED000C0C71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E80488D91B893EED000C0C71 /* ListrDay5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80488F91B893EED000C0C71 /* Build configuration list for PBXNativeTarget "ListrDay5" */;
+			buildPhases = (
+				E80488D61B893EED000C0C71 /* Sources */,
+				E80488D71B893EED000C0C71 /* Frameworks */,
+				E80488D81B893EED000C0C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListrDay5;
+			productName = ListrDay5;
+			productReference = E80488DA1B893EED000C0C71 /* ListrDay5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E80488EE1B893EED000C0C71 /* ListrDay5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80488FC1B893EED000C0C71 /* Build configuration list for PBXNativeTarget "ListrDay5Tests" */;
+			buildPhases = (
+				E80488EB1B893EED000C0C71 /* Sources */,
+				E80488EC1B893EED000C0C71 /* Frameworks */,
+				E80488ED1B893EED000C0C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E80488F11B893EED000C0C71 /* PBXTargetDependency */,
+			);
+			name = ListrDay5Tests;
+			productName = ListrDay5Tests;
+			productReference = E80488EF1B893EED000C0C71 /* ListrDay5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E80488D21B893EED000C0C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Miwand Najafe";
+				TargetAttributes = {
+					E80488D91B893EED000C0C71 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E80488EE1B893EED000C0C71 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E80488D91B893EED000C0C71;
+					};
+				};
+			};
+			buildConfigurationList = E80488D51B893EED000C0C71 /* Build configuration list for PBXProject "ListrDay5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E80488D11B893EED000C0C71;
+			productRefGroup = E80488DB1B893EED000C0C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E80488D91B893EED000C0C71 /* ListrDay5 */,
+				E80488EE1B893EED000C0C71 /* ListrDay5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E80488D81B893EED000C0C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80488E51B893EED000C0C71 /* Main.storyboard in Resources */,
+				E80488EA1B893EED000C0C71 /* LaunchScreen.xib in Resources */,
+				E80488E71B893EED000C0C71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80488ED1B893EED000C0C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E80488D61B893EED000C0C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80489041B894438000C0C71 /* AddToDoListViewController.swift in Sources */,
+				E80488E21B893EED000C0C71 /* ViewController.swift in Sources */,
+				E80489081B89518B000C0C71 /* ToDoItem.swift in Sources */,
+				E80488E01B893EED000C0C71 /* AppDelegate.swift in Sources */,
+				E80489021B89426A000C0C71 /* ToDoListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80488EB1B893EED000C0C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80488F61B893EED000C0C71 /* ListrDay5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E80488F11B893EED000C0C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E80488D91B893EED000C0C71 /* ListrDay5 */;
+			targetProxy = E80488F01B893EED000C0C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E80488E31B893EED000C0C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80488E41B893EED000C0C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E80488E81B893EED000C0C71 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80488E91B893EED000C0C71 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E80488F71B893EED000C0C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E80488F81B893EED000C0C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E80488FA1B893EED000C0C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ListrDay5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E80488FB1B893EED000C0C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ListrDay5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E80488FD1B893EED000C0C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ListrDay5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListrDay5.app/ListrDay5";
+			};
+			name = Debug;
+		};
+		E80488FE1B893EED000C0C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ListrDay5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListrDay5.app/ListrDay5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E80488D51B893EED000C0C71 /* Build configuration list for PBXProject "ListrDay5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80488F71B893EED000C0C71 /* Debug */,
+				E80488F81B893EED000C0C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80488F91B893EED000C0C71 /* Build configuration list for PBXNativeTarget "ListrDay5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80488FA1B893EED000C0C71 /* Debug */,
+				E80488FB1B893EED000C0C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E80488FC1B893EED000C0C71 /* Build configuration list for PBXNativeTarget "ListrDay5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80488FD1B893EED000C0C71 /* Debug */,
+				E80488FE1B893EED000C0C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E80488D21B893EED000C0C71 /* Project object */;
+}

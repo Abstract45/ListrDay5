@@ -34,7 +34,7 @@ class AddToDoListViewController: UIViewController {
         var num1 = textField.text.utf16.endIndex
         var num2 = textField.text.utf16.startIndex
         var textCount = num1 - num2
-     print(textCount)
+  
         
         
         if sender as? NSObject != self.DoneButton{return}

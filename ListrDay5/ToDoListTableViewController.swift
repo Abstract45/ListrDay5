@@ -60,6 +60,7 @@ class ToDoListTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
+
         return toDoItems.count
     }
 
@@ -83,6 +84,7 @@ class ToDoListTableViewController: UITableViewController {
         tableView.deselectRowAtIndexPath(indexPath, animated: false)
         var tappedItem: ToDoItem = self.toDoItems.objectAtIndex(indexPath.row) as! ToDoItem
         tappedItem.completed = !tappedItem.completed
+        
         tableView.reloadData()
     }
 
@@ -95,13 +97,15 @@ class ToDoListTableViewController: UITableViewController {
     */
 
     
-    // Override to support editing the table view.
-//    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-//        if editingStyle == .Delete {
-//            // Delete the row from the data source
-//            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-//        }
-//    }
+//     Override to support editing the table view.
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if editingStyle == .Delete {
+            // Delete the row from the data source
+            toDoItems.removeObjectAtIndex(indexPath.row)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+           
+        }
+    }
 
 
     /*
